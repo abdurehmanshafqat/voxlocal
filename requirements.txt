@@ -1,0 +1,9 @@
+# Core app
+flask
+kokoro-onnx
+soundfile
+numpy
+lameenc
+
+# Voice cloning (pulls in torch — install a CUDA build of torch first if needed)
+f5-tts

@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Model weights (downloaded separately — see README)
+*.onnx
+*.bin
+*.pt
+*.safetensors
+
+# Model caches
+.cache/
+huggingface/
+
+# Audio artifacts
+*.wav
+*.mp3
+!static/samples/*.mp3
+
+# Logs & scratch
+server.log
+headers.txt
+
+# Docs kept local-only
+*.md
